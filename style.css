@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    width: 100vh;
+    font-family: sans-serif;
+
+}
+.btn-primary{
+    
+    background-color: #FD6E0A;
+    color:#ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    border: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
+    
+}
+.btn-primary:hover{
+    background-color:#FFF8F3;
+    border: 3px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.naving{ 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+
+
+    
+}
+
+   
+
+.logo-heading{
+    font-size:45px;
+    color:#181818 ;
+    font-weight: 800;
+  margin-left: 200px;
+  margin-top: 20px;
+
+  
+   
+    
+}
+.logo-heading span{
+    color:#FD6E0A;
+}
+.naving>ul{ display: flex;
+    
+    align-items: center;
+    margin-right: 200px;
+    margin-top: 20px;
+   
+
+}
+.naving li{
+    list-style: none;
+    margin-right: 50px;
+}
+.ancor{
+    text-decoration: none;
+    color: #474747;
+}
+
+.container{
+  
+    display: flex;
+    justify-content:space-between;
+    
+    background-color: #FFF8F3;
+    width: 100vw;
+   
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+    
+}
+.intro{
+    width: 50%;
+    background-image: url(../img/developer.png);
+    background-repeat:no-repeat;
+    background-position:10% 100%;
+    background-size:70px;
+    
+    
+}
+.intro>h3{
+    font-size: 46px;
+    font-weight:600;
+    color: #474747;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    margin-left:200px;
+}
+.intro>h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+    margin-left:200px;
+}
+.intro>p{
+    margin-bottom: 20px;
+    color: #181818;
+    font-size: 28px;
+    margin-left:200px;
+
+}
+.btn{
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left:200px;
+}
+.btn1{
+    background-color:#FFF8F3;
+    border: 3px solid #FD6E0A;
+    color: #FD6E0A;
+
+}
+.btn1:hover{
+    background-color: #FD6E0A;
+    color:#ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    border: 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.img-fun>img{
+    width: 500px;
+    height: 600px;
+   margin-right:100px;
+
+}
+
+   
+
