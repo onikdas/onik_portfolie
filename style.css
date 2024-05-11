@@ -86,7 +86,7 @@ body{
 }
 .intro{
     width: 50%;
-    background-image: url(../img/developer.png);
+    background-image: url(./../onik_portfolie/img/developer.png);
     background-repeat:no-repeat;
     background-position:10% 100%;
     background-size:70px;
@@ -142,5 +142,96 @@ body{
 
 }
 
+.about-section{
+    background-color: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    margin-right:250px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.about>h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    padding-top: 120px;
+
+}
+.about>p{
+    font-size: 24px;
+    font-weight: regular;
+    color: #474747;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+.information{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+
+ .name>p{
+    font-size: 20px;
+    font-weight: regular;
+    color: #474747;
+    text-align: center;
+ }
+ .name>h4{
+    font-size: 28px;
+    font-weight: semibold;
+    color: #181818;
+ }
+ .email{
+    padding-left: 30px;
+ }
+ .email>p{
+    font-size: 20px;
+    font-weight: regular;
+    color: #474747;
+    text-align: center;
+
+ }
+ .email>h4{
+    font-size: 28px;
+    font-weight: semibold;
+    color: #181818;
+ }
+ .br-day{
+    padding-left: 30px;
+ }
+ .br-day>p{
+    font-size: 20px;
+    font-weight: regular;
+    color: #474747;
+    text-align: center;
+
+ }
+ .br-day>h4{
+    font-size: 28px;
+    font-weight: semibold;
+    color: #181818;
+
+ }
+ .from{
+    padding-left: 30px;
+ }
+ .from>p{
+    font-size: 20px;
+    font-weight: regular;
+    color: #474747;
+    text-align: center;
+
+ }
+
+ .from>h4{
+    font-size: 28px;
+    font-weight: semibold;
+    color: #181818;
+
+
+ }
    
 
