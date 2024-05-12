@@ -30,6 +30,7 @@ body{
 }
 .naving{ 
     width: 100vw;
+    height: 80px;
     display: flex;
     align-items: center;
   justify-content: space-between;
@@ -74,6 +75,7 @@ body{
 .container{
   
     display: flex;
+    align-items: center;
     justify-content:space-between;
     
     background-color: #FFF8F3;
@@ -139,6 +141,7 @@ body{
     width: 500px;
     height: 600px;
    margin-right:100px;
+   margin-top: 150px;
 
 }
 
@@ -233,5 +236,150 @@ body{
 
 
  }
+.what-i-do{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 120px;
+    
    
+    
+}
+.what-i-do>h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: black;
+}
+.what-i-do>p{
+    padding: 0 300px;
+    font-size: 24px;
+    font-weight: regular;
+    color: #474747;
+}
+.card-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
 
+}
+.card{
+    width:270px;
+    height:380px;
+    background-color: #FFF8F3;
+    box-shadow:1px solid black;
+    border: 1px solid black;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.card>img{
+    width: 44px;
+    height: 44px;
+    margin-top:30px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+.javascript-h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.react-card{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.card>p{
+    margin-top: 40px;
+    font-size:20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align:center;
+}
+.card:hover{
+    border:5px solid #FD6E0A;
+    transform: rotate(30);
+}
+.summary-h1{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.summary{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.education{
+    width:510px;
+    height: 180;
+   border:2px solid#FD6E0A;
+   border-radius: 8px;
+    
+    margin-left: 15px;
+    margin-bottom: 18px;
+}
+.education:hover{
+    border: 2px solid blue;
+}
+
+
+.education>h2{
+    font-size: 30px;
+    font-weight: bold;
+   color: black;
+   margin-top: 20px;
+   
+   margin-left: 120px;
+   margin-bottom: 25px;
+}
+.education>h3{
+    font-size: 25px;
+    font-weight: bold;
+     color: black;
+     margin-top: 20px;
+     margin-left: 120px;
+     margin-bottom: 12px;
+     margin-right: 20px;
+}
+.education>h6{
+    font-size: 25px;
+    font-weight:600;
+     color: #D9D9D9;
+     margin-left: 120px;
+     margin-bottom: 15px;
+}
+.education>p{
+    font-size: 20px;
+    color: #757575;
+    margin-left: 110px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.btn-5{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-primary{
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
+}
