@@ -92,6 +92,7 @@ body{
     background-repeat:no-repeat;
     background-position:10% 100%;
     background-size:70px;
+    margin-left: 200px;
     
     
 }
@@ -101,20 +102,20 @@ body{
     color: #474747;
     margin-top: 200px;
     margin-bottom: 25px;
-    margin-left:200px;
+   
 }
 .intro>h1{
     font-size: 85px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
-    margin-left:200px;
+   
 }
 .intro>p{
     margin-bottom: 20px;
     color: #181818;
     font-size: 28px;
-    margin-left:200px;
+    
 
 }
 .btn{
@@ -383,3 +384,111 @@ body{
     margin-bottom: 80px;
    
 }
+
+
+footer{
+   
+   
+   
+}
+.contaiter-footer{
+    background-color: #FFF8F3;
+    height: 800px;
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+.contact{
+   
+   margin-left: 50px;
+   
+}
+.contact>p{
+    font-size: 24px;
+    font-weight:700;
+    color: #474747;
+    margin-bottom: 50px;
+}
+.icon img{
+    width: 76px;
+    margin-left: 30px;
+}
+.icon:hover{
+    cursor: pointer;
+    
+}
+.footer-h1
+{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818; 
+  margin-bottom: 80px;
+}
+.massage{
+  margin-right: 50px;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .naving{
+        flex-direction:column ;
+    }
+    .container,.what-i-do,.card-container,.summary,.contaiter-footer{
+        flex-direction: column;
+        margin: 20px auto;
+       
+    }
+    .intro,.btn{
+        margin-left: 30px;
+    }
+    .card{
+        margin-top: 10px;
+    }
+   .contaiter-footer{
+    align-items: flex-start;
+   }
+   .massage{
+    margin-left: 50px;
+   }
+   .about-section{
+   
+    width: 100%;
+    height: auto;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.information{
+    flex-direction: column;
+    padding-top: 10px;
+   
+   
+}
+
+}
+
+/* Styles for screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+   
+  }
+  
+  /* Styles for screens between 600px and 1200px */
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    
+  }
+  
+  /* Example of adjusting font size for smaller screens */
+
+  
