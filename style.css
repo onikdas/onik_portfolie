@@ -81,7 +81,7 @@ body{
     background-color: #FFF8F3;
     width: 100vw;
    
-    background-image: url(../img/header_bg.png);
+    background-image: url(./../onik_portfolie/img/header_bg.png);
     background-repeat: no-repeat;
     background-position:100% 100%;
     
@@ -149,9 +149,11 @@ body{
 .about-section{
     background-color: #FFF8F3;
     width: 1140px;
-    height: 550px;
-    margin-right:250px;
-    margin-left: 250px;
+
+    margin-left: 120px;
+    
+    
+    
     margin-top: 50px;
 }
 .about>h1{
@@ -175,8 +177,11 @@ body{
     display: flex;
     padding-top: 100px;
     padding-left: 120px;
+   
 }
-
+.name{
+    margin-bottom: 50px;
+}
  .name>p{
     font-size: 20px;
     font-weight: regular;
@@ -465,7 +470,7 @@ input[type=text] {
    
     width: 100%;
     height: auto;
-    margin-right:20px;
+    
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 80px;
